@@ -50,18 +50,237 @@
 
 }
 .side-wrapper {
-    background: #2785F7;;
+    background-color: #2785F7;
+    background-image: url(./images/folder.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
     height: 62px;
     width: 67px;
     border-radius: 15px;
-    padding: 14px 17px;
     margin-bottom: 15px;
-    }
-.side-item {
-    width: 35px;
-    height: 35.39px;
-    margin-bottom: 44px;
+    position: relative;
+    cursor: pointer;
+
 }
+.side-wrapper:hover{
+    background-image: url(./images/white/folder.svg);
+
+}
+.side-wrapper::after {
+    content:"";
+    display:block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    font-family: "bahij-sultannahia";
+    font-size: 24px;
+    line-height: 62px;
+    color: white;
+    left: 50px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; ;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.side-wrapper:hover::after {
+    width: 100px;
+    content:"Project";
+    text-align: left;
+    padding-left: 20px;
+    transition-property: width;
+    transition-duration: 1s;
+ 
+}
+.monitor-item {
+    display: block;
+    background-image: url(./images/monitor.svg);
+    background-color: #FEFEFE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    height: 62px;
+    width: 67px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.monitor-item:hover{
+    background-image: url(./images/white/monitor.svg);
+    background-color:#2785F7;
+}
+
+.monitor-item::after {
+    content:"";
+    display:block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    font-family: "bahij-sultannahia";
+    font-size: 24px;
+    line-height: 62px;
+    color: white;
+    left: 50px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; ;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.monitor-item:hover::after {
+    width: 100px;
+    content:"Account";
+    text-align: left;
+    padding-left: 20px;
+    transition-property: width;
+    transition-duration: 1s;
+}
+.users-item {
+    background-image: url(./images/users-alt.svg);
+    background-color: #FEFEFE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    height: 62px;
+    width: 67px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.users-item:hover{
+    background-image: url(./images/white/users-alt.svg);
+    background-color:#2785F7;
+}
+
+.users-item::after {
+    content:"";
+    display:block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    font-family: "bahij-sultannahia";
+    font-size: 24px;
+    line-height: 62px;
+    color: white;
+    left: 50px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; ;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.users-item:hover::after {
+    width: 100px;
+    content:"Groups";
+    text-align: left;
+    padding-left: 20px;
+    transition-property: width;
+    transition-duration: 1s;
+}
+.cloud-share-item {
+    background-image: url(./images/cloud-share.svg);
+    background-color: #FEFEFE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    height: 62px;
+    width: 67px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cloud-share-item:hover{
+    background-image: url(./images/white/cloud-share.svg);
+    background-color:#2785F7;
+}
+
+.cloud-share-item::after {
+    content:"";
+    display:block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    font-family: "bahij-sultannahia";
+    font-size: 24px;
+    line-height: 62px;
+    color: white;
+    left: 50px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; ;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.cloud-share-item:hover::after {
+    width: 100px;
+    content:"Cloud";
+    text-align: left;
+    padding-left: 20px;
+    transition-property: width;
+    transition-duration: 1s;
+}
+.cog-item {
+    background-image: url(./images/cog.svg);
+    background-color: #FEFEFE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    height: 62px;
+    width: 67px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cog-item:hover{
+    background-image: url(./images/white/cog.svg);
+    background-color:#2785F7;
+}
+
+.cog-item::after {
+    content:"";
+    display:block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    font-family: "bahij-sultannahia";
+    font-size: 24px;
+    line-height: 62px;
+    color: white;
+    left: 50px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; ;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.cog-item:hover::after {
+    width: 100px;
+    content:"Setting";
+    text-align: left;
+    padding-left: 20px;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
 .right-side{
     display: flex;
     flex-wrap: wrap;
@@ -188,12 +407,30 @@
 }
 .information-container{
     width: 300px;
-    height: 310px;
+    height: 300px;
     background-color: #FFFFFF;
     border-radius: 41px;
-    padding: 51px 30px 27px 38px;
-
+    padding: 40px 30px 27px 38px;
+    position: relative;
 }
+.information-container:hover::after {
+    content:"";
+    display:block;
+    position: absolute;
+    height: 76px;
+    width: 82px;
+    top: -36px;
+    right: -30px;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    background-image: url(./images/trash-alt.svg);
+    background-size: 50px 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+
+
 .information{
     height: 64px;
     width: 232px;
@@ -226,16 +463,16 @@
     line-height: 27px;
     text-align: center;
     color: #C5C5C5;
-    margin: 0px 16px 0px 1px;
-
+    margin: auto
 }
 .information-container-2{
-    margin-top: 18px ;
+    margin-top: 44px;
 }
 
 .information-container:hover{
     background-color:  #2785F7;
     transition: 0.5s;
+    cursor: pointer;
 }
 table{
     text-align: center;
@@ -251,12 +488,16 @@ tr td {
 height: 70px;
 vertical-align: middle;
 }
-td img {
+.td-img {
+    background-image: url(./images/download.svg);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 45px;
     width: 45px;
     border: 1px solid rgb(155, 153, 153);
     border-radius: 13px;
-    vertical-align: middle;
+    display: inline-block;
 }
 tr{
     text-align: center;
@@ -275,7 +516,203 @@ tr{
 tbody tr:hover {
     background-color: #FFFFFF;
 }
-td img:hover{
+.td-img:hover{
+    background-image: url(./images/white/download\ \(2\).svg);
     background-color: #2785F7;
-    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    height: 31px;
+    width: 35px;
+}
+
+.account-wrapper{
+    background: #EAEBED;       
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    width: 1404px;
+    height: 726px;
+    padding: 23px 30px 20px 26px;
+    display: flex;
+    flex-direction: row;
+}
+
+.account-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.account-left-side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.account-name{
+    height: 149px;
+    width: 615px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 39px 0px 39px 42px;
+}
+.heading{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    background-color: #F24F5E;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 43px;
+    padding: 6px
+}
+
+.account-title{
+    font-family: "bahij-sultannahia";
+    font-size: 40px;
+}
+
+.account-text{
+    font-family:"ChronicaPro-Regular";
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+}
+.change-password{
+    height: 517px;
+    width: 618px;
+    border-radius: 30px;
+    background-color: #FEFEFE;
+    padding: 27px 0px 28px 42px;
+}
+.password-title{
+    display: flex;
+    flex-direction: row;
+}
+.padlock{
+    width: 65px;
+    height: 65px;
+    background-color: #2785F7;
+    background-image: url(./images/padlock.svg);
+    border-radius: 50px;
+    background-size: 48px 47px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 42px;
+}
+form{
+    margin-top: 20px;
+}
+
+.form p {
+    font-family: "bahij-sultannahia";
+    font-size: 30px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px 0px 10px;
+}
+input[type="password"] {
+    height: 63px;
+    width: 524px;
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+input::placeholder{
+    font-family: "ChronicaPro-Regular";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #B1B1B1;
+    text-align: left;
+}
+input[type="password"]:focus{
+    border: 3px solid #2785F7
+}
+.account-company{
+    height: 683px;
+    width: 588px;
+    border-radius: 30px;
+    background-color: #FEFEFE; 
+    margin-left: 14px;  
+    padding: 32px 0px 21px 47px;
+}
+.account-company-title{
+    display: flex;
+    flex-direction: row;
+}
+.picture-university{
+    background-image: url(./images/university.svg);
+    background-size: 43px 41px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(228, 89, 39);
+    height:70px;
+    width: 86px;
+    border-radius: 50px;
+    margin-right: 43px;
+}
+.company-name{
+    height: 64px;
+    width: 494px;
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+
+.company-address{
+    height: 118px;
+    width: 494px;
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.company-form p{
+    font-family: "bahij-sultannahia";
+    font-size: 30px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px 0px 10px;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+}
+.adress-content {
+    display: flex;
+    flex-direction: column;
+}
+.address p {
+    font-family: "bahij-sultannahia";
+    font-size: 30px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px 0px 10px;
+}
+.address input{
+    height: 63px;
+    width: 237px;
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    outline: none;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+input[type="text"]:focus{
+    border: 3px solid #2785F7
 }
